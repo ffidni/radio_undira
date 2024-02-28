@@ -28,7 +28,7 @@ class _HomeViewState extends State<HomeView> {
   void initRadioPlayer() {
     _radioPlayer.setChannel(
       title: 'Radio Player',
-      url: 'http://27.50.19.173:9000/UNDIRA1',
+      url: 'http://27.50.19.173:9000/UNDIRA',
       // url: 'http://stream-uk1.radioparadise.com/aac-320',
       imagePath: 'assets/images/logo.png',
     );
