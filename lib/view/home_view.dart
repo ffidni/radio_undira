@@ -28,7 +28,7 @@ class _HomeViewState extends State<HomeView> {
   void initRadioPlayer() {
     _radioPlayer.setChannel(
       title: 'Radio Player',
-      url: 'http://27.50.19.173:9000/UNDIRA',
+      url: 'http://27.50.19.173:9000/UNDIRA1',
       // url: 'http://stream-uk1.radioparadise.com/aac-320',
       imagePath: 'assets/images/logo.png',
     );
@@ -65,10 +65,10 @@ class _HomeViewState extends State<HomeView> {
           context: context,
           builder: (context) {
             dialogOpen = true;
-            return AlertDialog(
-              title: Text("Error"),
+            return const AlertDialog(
+              title: Text("Radio UNDIRA"),
               content: Text(
-                "Gagal terhubung ke radio!",
+                "Data sedang diproses",
               ),
             );
           },
@@ -77,6 +77,7 @@ class _HomeViewState extends State<HomeView> {
         });
       }
     });
+
     return Scaffold(
       body: Container(
         width: double.infinity,
