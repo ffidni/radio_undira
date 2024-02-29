@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.AUDIO_CAPTURE" />
     
     <application
-        android:label="Radio UNDIRA"
+        android:label="Radio Undira"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
